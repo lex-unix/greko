@@ -29,7 +29,7 @@ export default function Parchment({ children }: Props) {
         height={116}
         className="absolute bottom-4 left-4"
       />
-      <div className="mx-4 md:mx-24">{children}</div>
+      <div className="mx-4 md:mx-24 pt-24">{children}</div>
     </div>
   )
 }
