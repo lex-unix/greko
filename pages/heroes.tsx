@@ -22,13 +22,13 @@ export default function Heroes() {
           <HeroCard
             name="Тесей з головою Медузи"
             description="Some description of the hero goes here"
-            src="flying-dummy.png"
+            src="lost-head.png"
             href="tesey"
           />
           <HeroCard
             name="Стімпанк Горгулья"
             description="Some description of the hero goes here"
-            src="lost-head.png"
+            src="flying-dummy.png"
             href="gorgulya"
           />
         </div>
