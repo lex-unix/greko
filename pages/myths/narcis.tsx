@@ -2,7 +2,7 @@ import ArticleLayout from '@/components/article-layout'
 
 export default function MythPage() {
   return (
-    <ArticleLayout title="Нарциc">
+    <ArticleLayout title="Нарцис">
       <p>
         Далеко за межі Беотії линула слава сліпого віщуна Тіресія. Сам Зевс
         колись дозволив йому бачити прийдешнє, і Тіресій віщував усім людям

@@ -21,7 +21,7 @@ export default function Myths() {
           excepteur culpa exercitation eu enim. Occaecat sit amet consectetur
           proident officia enim tempor cillum deserunt cillum in.
         </Myth>
-        <Myth title="Нарцис" href="/narcis" src="/god-statue.png">
+        <Myth title="Нарцис" href="narcis" src="/god-statue.png">
           Nisi ipsum consectetur ad ut sint ex culpa enim ex cillum occaecat
           tempor. In enim voluptate quis ex eiusmod aliquip aliquip laboris
           excepteur culpa exercitation eu enim. Occaecat sit amet consectetur
