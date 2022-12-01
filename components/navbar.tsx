@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import DropdownMenu from './dropdown-menu'
 
 interface NavLinkProps {
   title: string
@@ -20,7 +21,7 @@ const NavLink = ({ title, imageSrc, href }: NavLinkProps) => {
 export default function Navbar() {
   return (
     <div className="w-full pt-4 pb-4 fixed z-20">
-      <div className="flex justify-center items-center gap-12">
+      <div className="hidden md:flex justify-center items-center gap-12">
         <NavLink title="Головна" imageSrc="/nav-icons/home-icon.png" href="/" />
         <NavLink
           title="Міфи"
@@ -32,6 +33,9 @@ export default function Navbar() {
           imageSrc="/nav-icons/heroes-icon.png"
           href="/heroes"
         />
+      </div>
+      <div className="flex md:hidden justify-start items-center ml-4">
+        <DropdownMenu />
       </div>
     </div>
   )
