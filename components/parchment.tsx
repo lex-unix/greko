@@ -13,7 +13,7 @@ export default function Parchment({ children }: Props) {
         alt="Parchment Background"
         width={2200}
         height={1900}
-        className="absolute inset-0 w-full h-full -z-10"
+        className="object-cover absolute inset-0 w-full h-full -z-10"
       />
       <Image
         src="/steam-punk-icon-1.png"
