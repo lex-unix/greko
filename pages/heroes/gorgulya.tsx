@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function HeroPage() {
   return (
     <ArticleLayout title="Горгулья">
-      <p>
+      <p className="text-base">
         У міфології горгуллю та химеру можна назвати родичами. Химера це -
         породження сполучення богів Єхідни і Тифона, вона належить до грецької
         міфології. Перша згадка про неї належить Гомеру, у шостому розділі

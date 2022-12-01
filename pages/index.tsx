@@ -9,11 +9,11 @@ export default function Home() {
       <Parchment>
         <div className="flex flex-col gap-8 md:gap-16">
           <div className="flex justify-between items-center flex-col md:flex-row">
-            <div className="max-w-[700px] w-full">
-              <h2 className="text-4xl font-semibold mb-4 md:mb-10">
+            <div className="max-w-[700px] w-full mx-4">
+              <h2 className="text-4xl font-sans font-semibold mb-3 md:mb-4">
                 Занурся у Всесвіт Грецьких Богів
               </h2>
-              <p className="italic mb-4 md:mb-0">
+              <p className="italic text-xl mb-4 md:mb-0">
                 Походження світу і богів. Народження Зевса. Зевс скидає Крона.
                 Боротьба богів-олімпійців з титанами Боротьба Зевса з Тіфоном.
                 Олімп Посейдон і Божества моря ...
@@ -34,8 +34,8 @@ export default function Home() {
               height={320}
             />
             <div className="md:ml-8 max-w-[700px] w-full">
-              <h2 className="text-4xl font-semibold mb-4 md:mb-10">Геракл</h2>
-              <p className="italic mb-4 md:mb-0">
+              <h2 className="text-4xl font-semibold mb-3 md:mb-4">Геракл</h2>
+              <p className="italic text-xl mb-4 md:mb-0">
                 Який є символом велетенської сили та незламності...
               </p>
             </div>

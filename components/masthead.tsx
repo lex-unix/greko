@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Masthead() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center">
+    <div className="min-h-screen font-sans flex flex-col justify-center items-center">
       <div className="absolute inset-0 -z-10">
         <Image
           src="/masthead.png"
@@ -14,7 +14,7 @@ export default function Masthead() {
         />
       </div>
       <div className="text-white text-center">
-        <h1 className="text-4xl md:text-6xl mb-4 md:mb-6">
+        <h1 className="text-4xl font-sans font-semibold uppercase md:text-6xl mb-4 md:mb-6">
           Поринь у світ грецької міфології
         </h1>
         <h3 className="text-xl md:text-2xl">
