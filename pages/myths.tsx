@@ -5,10 +5,10 @@ export default function Myths() {
   return (
     <Parchment>
       <div className="pt-16">
-        <h1 className="mb-4 text-3xl md:text-5xl uppercase md:text-center font-bold">
+        <h1 className="mb-4 text-3xl font-bold uppercase md:text-center md:text-5xl">
           Надзвичайні грецькі міфи
         </h1>
-        <h3 className="text-xl md:text-2xl md:text-center mb-8">
+        <h3 className="mb-8 text-xl md:text-center md:text-2xl">
           Відкрий для себе історії античної Греції
         </h3>
         <Myth

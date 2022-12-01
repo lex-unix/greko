@@ -19,7 +19,7 @@ export default function HeroPage() {
         alt="Gorgulya"
         width={700}
         height={350}
-        className="w-[230px] h-auto my-2 mx-auto rounded-md"
+        className="my-2 mx-auto h-auto w-[230px] rounded-md"
       />
       <p>
         З давньогрецького химера перекладається як «молода коза». Відповідно до

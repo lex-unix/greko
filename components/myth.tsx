@@ -11,19 +11,19 @@ interface Props {
 
 export default function Myth({ title, src, href, children }: Props) {
   return (
-    <div className="mb-4 md:mb-10 flex flex-col md:flex-row justify-between items-start">
-      <div className="max-w-[800px] pb-5 md:pb-0 mr-0 md:mr-3">
+    <div className="mb-4 flex flex-col items-start justify-between md:mb-10 md:flex-row">
+      <div className="mr-0 max-w-[800px] pb-5 md:mr-3 md:pb-0">
         <Link href={`myths/${href}`}>
-          <h1 className="text-4xl font-semibold italic mb-4">{title}</h1>
+          <h1 className="mb-4 text-4xl font-semibold italic">{title}</h1>
         </Link>
-        <p className="italic md:text-xl">{children}</p>
+        <p className="md:text-xl">{children}</p>
       </div>
       <Image
         src={src}
         alt={title}
         width={361}
         height={248}
-        className="rounded-sm w-[full]"
+        className="w-[full] rounded-sm"
       />
     </div>
   )

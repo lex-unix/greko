@@ -11,7 +11,7 @@ interface Props {
 
 export default function HeroCard({ name, description, src, href }: Props) {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col items-center justify-center">
       <Link href={`heroes/${href}`}>
         <Image
           src={`/hero-cards/${src}`}
@@ -22,7 +22,7 @@ export default function HeroCard({ name, description, src, href }: Props) {
         />
       </Link>
       <div className="mt-3 text-center">
-        <Link href={href} className="font-semibold italic text-xl">
+        <Link href={href} className="text-xl font-semibold">
           {name}
         </Link>
         <p className="italic">{description}</p>

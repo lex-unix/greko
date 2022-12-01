@@ -21,7 +21,7 @@ export default function HeroPage() {
         alt="Minotaur"
         width={700}
         height={350}
-        className="w-full h-auto my-2 rounded-md"
+        className="my-2 h-auto w-full rounded-md"
       />
       <p>
         Пасіфая доручила придворному афінському майстрові Дедалу виготовити

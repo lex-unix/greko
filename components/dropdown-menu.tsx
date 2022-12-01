@@ -6,7 +6,7 @@ export default function DropdownMenu() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center rounded-md px-2 py-2 bg-yellow-600 ring-stone-400">
+        <Menu.Button className="inline-flex w-full justify-center rounded-md bg-yellow-600 px-2 py-2 ring-stone-400">
           <MenuIcon />
         </Menu.Button>
       </div>
@@ -19,8 +19,8 @@ export default function DropdownMenu() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute left-0 mt-2 w-56 z-50 origin-top-left rounded-md bg-stone-200 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-          <div className="px-1 py-">
+        <Menu.Items className="absolute left-0 z-50 mt-2 w-56 origin-top-left rounded-md bg-stone-200 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <div className="py- px-1">
             <DropdownMenuItem href="/">Головна</DropdownMenuItem>
             <DropdownMenuItem href="/heroes">Герої</DropdownMenuItem>
             <DropdownMenuItem href="/myths">Міфи</DropdownMenuItem>
@@ -39,7 +39,7 @@ export const MenuIcon = () => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="w-5 h-5 stroke-zinc-800 dark:stroke-gray-200"
+      className="h-5 w-5 stroke-zinc-800 dark:stroke-gray-200"
     >
       <path
         strokeLinecap="round"

@@ -11,17 +11,17 @@ interface NavLinkProps {
 
 const NavLink = ({ title, imageSrc, href }: NavLinkProps) => {
   return (
-    <Link href={href} className="flex flex-col justify-center items-center">
+    <Link href={href} className="flex flex-col items-center justify-center">
       <Image src={imageSrc} alt={title} width={80} height={80} />
-      <div className="text-white uppercase">{title}</div>
+      <div className="uppercase text-white">{title}</div>
     </Link>
   )
 }
 
 export default function Navbar() {
   return (
-    <div className="w-full pt-4 pb-4 fixed z-20">
-      <div className="hidden md:flex justify-center items-center gap-12">
+    <div className="fixed z-20 w-full pt-4 pb-4">
+      <div className="hidden items-center justify-center gap-12 md:flex">
         <NavLink title="Головна" imageSrc="/nav-icons/home-icon.png" href="/" />
         <NavLink
           title="Міфи"
@@ -34,7 +34,7 @@ export default function Navbar() {
           href="/heroes"
         />
       </div>
-      <div className="flex md:hidden justify-start items-center ml-4">
+      <div className="ml-4 flex items-center justify-start md:hidden">
         <DropdownMenu />
       </div>
     </div>

@@ -26,7 +26,7 @@ export default function HeroPage() {
         alt="Tesey"
         width={700}
         height={350}
-        className="w-full h-auto my-2 rounded-md"
+        className="my-2 h-auto w-full rounded-md"
       />
       <p>
         Етра після цього заснувала на острові храм Афіни та запровадила звичай,
