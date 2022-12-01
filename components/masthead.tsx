@@ -14,10 +14,10 @@ export default function Masthead() {
         />
       </div>
       <div className="text-white text-center">
-        <h1 className="text-2xl md:text-6xl mb-3 md:mb-6">
+        <h1 className="text-4xl md:text-6xl mb-4 md:mb-6">
           Поринь у світ грецької міфології
         </h1>
-        <h3 className="md:text-2xl">
+        <h3 className="text-xl md:text-2xl">
           Дізнайся про міфи та героїв античної греції
         </h3>
       </div>

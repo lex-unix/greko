@@ -5,10 +5,10 @@ export default function Myths() {
   return (
     <Parchment>
       <div className="pt-16">
-        <h1 className="text-5xl uppercase text-center mb-4 font-bold">
+        <h1 className="text-3xl md:text-5xl uppercase md:text-center mb-4 font-bold">
           Надзвичайні грецькі міфи
         </h1>
-        <h3 className="text-2xl text-center mb-10">
+        <h3 className="text-xl md:text-2xl md:text-center mb-6">
           Відкрий для себе історії античної Греції
         </h3>
         <Myth title="Lorem ipsum" href="/myth-1" src="/pegasus.png">

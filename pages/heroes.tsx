@@ -5,14 +5,14 @@ export default function Heroes() {
   return (
     <Parchment>
       <div className="pt-16">
-        <h1 className="text-5xl uppercase text-center mb-4 font-bold">
+        <h1 className="text-3xl md:text-5xl uppercase md:text-center mb-4 font-bold">
           Відомі персонажі грецької міфології
         </h1>
-        <h3 className="text-2xl text-center">
+        <h3 className="text-xl md:text-2xl md:text-center">
           Дізнайся хто вбив Медусу Горгону або хто врятував світ від
           гіганьтського бика Балрога
         </h3>
-        <div className="grid grid-cols-3 mt-10">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0">
           <HeroCard
             name="Барлак"
             description="Some description of the hero goes here"

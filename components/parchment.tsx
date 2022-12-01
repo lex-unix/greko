@@ -20,16 +20,18 @@ export default function Parchment({ children }: Props) {
         alt="Steam Punk Mechanism"
         width={116}
         height={116}
-        className="absolute bottom-4 right-4"
+        className="absolute bottom-4 right-4 w-[80px] h-[80px] md:w-[116px] md:h-[116px]"
       />
       <Image
         src="/steam-punk-icon-2.png"
         alt="Steam Punk Unknown Item"
         width={116}
         height={116}
-        className="absolute bottom-4 left-4"
+        className="absolute bottom-4 left-4 w-[80px] h-[80px] md:w-[116px] md:h-[116px]"
       />
-      <div className="mx-4 md:mx-24 pt-24">{children}</div>
+      <div className="mx-4 md:mx-24 pt-5 md:pt-24 pb-28 md:pb-0">
+        {children}
+      </div>
     </div>
   )
 }
