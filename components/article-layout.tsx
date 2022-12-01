@@ -15,9 +15,9 @@ export default function ArticleLayout({ title, children }: Props) {
       </Head>
 
       <Parchment>
-        <div className="pt-10">
+        <div className="pt-16 md:pb-32">
           <h1 className="text-4xl font-bold mb-4">{title}</h1>
-          <p>{children}</p>
+          {children}
         </div>
       </Parchment>
     </>
