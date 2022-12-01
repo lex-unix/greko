@@ -1,5 +1,5 @@
-import Myth from '../components/myth'
-import Parchment from '../components/parchment'
+import Myth from '@/components/myth'
+import Parchment from '@/components/parchment'
 
 export default function Myths() {
   return (
@@ -11,13 +11,13 @@ export default function Myths() {
         <h3 className="text-xl md:text-2xl md:text-center mb-6">
           Відкрий для себе історії античної Греції
         </h3>
-        <Myth title="Lorem ipsum" href="/myth-1" src="/pegasus.png">
+        <Myth title="ДЕМЕТРА І ПЕРСЕФОНА" href="/myth-1" src="/pegasus.png">
           Nisi ipsum consectetur ad ut sint ex culpa enim ex cillum occaecat
           tempor. In enim voluptate quis ex eiusmod aliquip aliquip laboris
           excepteur culpa exercitation eu enim. Occaecat sit amet consectetur
           proident officia enim tempor cillum deserunt cillum in.
         </Myth>
-        <Myth title="Lorem ipsum" href="/myth-1" src="/god-statue.png">
+        <Myth title="НАРЦИС" href="/myth-1" src="/god-statue.png">
           Nisi ipsum consectetur ad ut sint ex culpa enim ex cillum occaecat
           tempor. In enim voluptate quis ex eiusmod aliquip aliquip laboris
           excepteur culpa exercitation eu enim. Occaecat sit amet consectetur

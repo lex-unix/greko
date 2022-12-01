@@ -1,5 +1,5 @@
-import HeroCard from '../components/hero-card'
-import Parchment from '../components/parchment'
+import HeroCard from '@/components/hero-card'
+import Parchment from '@/components/parchment'
 
 export default function Heroes() {
   return (
@@ -14,22 +14,22 @@ export default function Heroes() {
         </h3>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0">
           <HeroCard
-            name="Барлак"
+            name="Паровий Мінотавр"
             description="Some description of the hero goes here"
             src="big-bison.png"
-            href="balrock"
+            href="minotavr"
           />
           <HeroCard
-            name="Lorem ipsum"
+            name="Тесей з головою Медузи"
             description="Some description of the hero goes here"
             src="flying-dummy.png"
-            href="flying-dummy"
+            href="tesey"
           />
           <HeroCard
-            name="Lorem ipsum"
+            name="Стімпанк Горгулья"
             description="Some description of the hero goes here"
             src="lost-head.png"
-            href="lost-head"
+            href="gorgulya"
           />
         </div>
       </div>

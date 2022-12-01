@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import Masthead from '../components/masthead'
-import Parchment from '../components/parchment'
+import Masthead from '@/components/masthead'
+import Parchment from '@/components/parchment'
 
 export default function Home() {
   return (
@@ -11,15 +11,12 @@ export default function Home() {
           <div className="flex justify-between items-center flex-col md:flex-row">
             <div className="max-w-[700px] w-full">
               <h2 className="text-4xl font-semibold mb-4 md:mb-10">
-                LOREM IPSUM
+                Занурся у Всесвіт Грецьких Богів
               </h2>
               <p className="italic mb-4 md:mb-0">
-                Aute ullamco ullamco sint laborum culpa ut ullamco Lorem magna
-                occaecat anim do. Nulla adipisicing incididunt dolore mollit id
-                dolore culpa commodo sit exercitation ea sit consectetur fugiat.
-                Aliquip pariatur tempor ut ex veniam pariatur officia non ad
-                laborum eiusmod laborum. Pariatur aute occaecat est sunt. Cillum
-                labore commodo sunt amet.
+                Походження світу і богів. Народження Зевса. Зевс скидає Крона.
+                Боротьба богів-олімпійців з титанами Боротьба Зевса з Тіфоном.
+                Олімп Посейдон і Божества моря ...
               </p>
             </div>
             <Image
@@ -37,16 +34,9 @@ export default function Home() {
               height={320}
             />
             <div className="md:ml-8 max-w-[700px] w-full">
-              <h2 className="text-4xl font-semibold mb-4 md:mb-10">
-                LOREM IPSUM
-              </h2>
+              <h2 className="text-4xl font-semibold mb-4 md:mb-10">Геракл</h2>
               <p className="italic mb-4 md:mb-0">
-                Aute ullamco ullamco sint laborum culpa ut ullamco Lorem magna
-                occaecat anim do. Nulla adipisicing incididunt dolore mollit id
-                dolore culpa commodo sit exercitation ea sit consectetur fugiat.
-                Aliquip pariatur tempor ut ex veniam pariatur officia non ad
-                laborum eiusmod laborum. Pariatur aute occaecat est sunt. Cillum
-                labore commodo sunt amet.
+                Який є символом велетенської сили та незламності...
               </p>
             </div>
           </div>
