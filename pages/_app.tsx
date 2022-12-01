@@ -4,12 +4,13 @@ import Navbar from '@/components/navbar'
 import { Oswald } from '@next/font/google'
 
 const oswald = Oswald({
-  subsets: ['cyrillic']
+  subsets: ['cyrillic'],
+  variable: '--font-oswald'
 })
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={oswald.className}>
+    <main className={`${oswald.variable} font-sans`}>
       <Navbar />
       <Component {...pageProps} />
     </main>
