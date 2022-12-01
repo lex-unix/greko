@@ -4,12 +4,11 @@ import React from 'react'
 
 interface Props {
   name: string
-  description: string
   src: string
   href: string
 }
 
-export default function HeroCard({ name, description, src, href }: Props) {
+export default function HeroCard({ name, src, href }: Props) {
   return (
     <div className="flex flex-col items-center justify-center">
       <Link href={`heroes/${href}`}>
@@ -25,7 +24,6 @@ export default function HeroCard({ name, description, src, href }: Props) {
         <Link href={href} className="text-xl font-semibold">
           {name}
         </Link>
-        <p className="italic">{description}</p>
       </div>
     </div>
   )

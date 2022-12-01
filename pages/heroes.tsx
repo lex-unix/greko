@@ -15,19 +15,16 @@ export default function Heroes() {
         <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-0">
           <HeroCard
             name="Паровий Мінотавр"
-            description="Some description of the hero goes here"
             src="big-bison.png"
             href="minotavr"
           />
           <HeroCard
             name="Тесей з головою Медузи"
-            description="Some description of the hero goes here"
             src="lost-head.png"
             href="tesey"
           />
           <HeroCard
             name="Стімпанк Горгулья"
-            description="Some description of the hero goes here"
             src="flying-dummy.png"
             href="gorgulya"
           />
