@@ -16,7 +16,11 @@ export default function Myth({ title, src, href, children }: Props) {
         <Link href={`myths/${href}`}>
           <h1 className="mb-4 text-4xl font-semibold italic">{title}</h1>
         </Link>
-        <p className="md:text-xl">{children}</p>
+        <p className="md:text-xl">{children}
+            <Link href={`myths/${href}`}>
+                <b>читати далі</b>
+            </Link>
+        </p>
       </div>
       <Image
         src={src}

@@ -16,16 +16,16 @@ export default function Myths() {
           href="demetra-i-persefona"
           src="/pegasus.png"
         >
-          Nisi ipsum consectetur ad ut sint ex culpa enim ex cillum occaecat
-          tempor. In enim voluptate quis ex eiusmod aliquip aliquip laboris
-          excepteur culpa exercitation eu enim. Occaecat sit amet consectetur
-          proident officia enim tempor cillum deserunt cillum in.
+            З давніх-давен шанували смертні люди Деметру – богиню родючості, сестру
+            всемогутнього Зевса. Це вона навчила людей обробляти землю, користатися
+            її дарами, вона щедро давала людям достаток і мир. Як і інші безсмертні,
+            Деметра жила на захмарнім Олімпі, але більше любила...
         </Myth>
         <Myth title="Нарцис" href="narcis" src="/god-statue.png">
-          Nisi ipsum consectetur ad ut sint ex culpa enim ex cillum occaecat
-          tempor. In enim voluptate quis ex eiusmod aliquip aliquip laboris
-          excepteur culpa exercitation eu enim. Occaecat sit amet consectetur
-          proident officia enim tempor cillum deserunt cillum in.
+            Далеко за межі Беотії линула слава сліпого віщуна Тіресія. Сам Зевс
+            колись дозволив йому бачити прийдешнє, і Тіресій віщував усім людям
+            правду. Якось прийшла до нього блакитноока німфа Ліріопея дізнатись про
+            долю свого сина Нарциса, напрочуд гарного...
         </Myth>
       </div>
     </Parchment>
